@@ -1,0 +1,33 @@
+local bannedUsers = {
+    [""] = true,
+    [""] = true,
+    [""] = true,
+    [""] = true,
+    [""] = true,
+    [""] = true,
+    [""] = true,
+    [""] = true,
+    [""] = true,
+    [""] = true,
+    [""] = true,
+    [""] = true,
+    [""] = true,
+    [""] = true,
+    [""] = true,
+    [""] = true,
+    [""] = true,
+    [""] = true,
+    [""] = true,
+    [""] = true,
+}
+
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+
+if not player then
+    return
+end
+
+if bannedUsers[player.Name] then
+    player:Kick("Has sido baneado de el capitan")
+end
