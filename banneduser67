@@ -1,5 +1,5 @@
 local bannedUsers = {
-    [""] = true,
+    ["2Luispro_12"] = true,
     [""] = true,
     [""] = true,
     [""] = true,
