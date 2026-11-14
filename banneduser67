@@ -1,6 +1,6 @@
 local bannedUsers = {
     ["Hiroshi_GT7"] = true,
-    [""] = true,
+    ["tacos_spike"] = true,
     [""] = true,
     [""] = true,
     [""] = true,
